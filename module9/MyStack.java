@@ -27,6 +27,14 @@ public class MyStack {
         top++;
         array[top] = value;
     }
+    public void remove(int index){
+        if(index == top){
+            top--;
+        }else{
+            System.arraycopy(array, index + 1, array, index, top - index);
+            top--;
+        }
+    }
     public void clear(){
         top = -1;
     }

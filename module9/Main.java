@@ -52,21 +52,23 @@ public class Main {
         myStack.push(10);
         System.out.println(myStack.size());
         System.out.println(myStack.peak());
+        myStack.remove(2);
+        System.out.println(myStack.size());
         myStack.pop();
         System.out.println(myStack.peak());
         //Hash Map
-        MyHashMap list2 = new MyHashMap();
-        list2.put('A', "Hello");
-        list2.put('C', "Mommy");
-        list2.put('B', "Sunny");
-        list2.put(1, "Good");
-        System.out.println(list2.get(1));
-        System.out.println(list2.size());
-        System.out.println(list2.remove('C'));
-        System.out.println(list2.get('C'));
-        System.out.println(list2.get('A'));
-        list2.clear();
-        System.out.println(list2.get('B'));
+//        MyHashMap list2 = new MyHashMap();
+//        list2.put('A', "Hello");
+//        list2.put('C', "Mommy");
+//        list2.put('B', "Sunny");
+//        list2.put(1, "Good");
+//        System.out.println(list2.get(1));
+//        System.out.println(list2.size());
+//        System.out.println(list2.remove('C'));
+//        System.out.println(list2.get('C'));
+//        System.out.println(list2.get('A'));
+//        list2.clear();
+//        System.out.println(list2.get('B'));
 
     }
 }
